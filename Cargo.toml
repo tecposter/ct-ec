@@ -1,0 +1,14 @@
+[package]
+name = "ct-ec"
+version = "0.0.1"
+edition = "2024"
+description = "Constant-time elliptic curve arithmetic with assembly-level verification"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/tecposter/ct-ec"
+readme = "README.md"
+keywords = ["ecc", "constant-time", "ed25519", "cryptography"]
+categories = ["cryptography"]
+
+include = ["src/**/*", "Cargo.toml", "LICENSE*", "README.md"]
+
+[dependencies]
